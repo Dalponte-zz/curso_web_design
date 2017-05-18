@@ -1,0 +1,56 @@
+
+/* Definir regra para TODAS as tags <hr> */
+hr {
+    /* propriedade do CSS 
+    Define a cor da borda */
+    border-color: green; 
+} /* chaves fecha regra*/
+
+body {
+    /* Define a fonte do site. 
+    Lista de fontes:  https://www.w3.org/Style/Examples/007/fonts.pt_BR.html*/
+    font-family: 'calibri'; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+/* REGRA aplicada à CLASSE (identificada pelo . no inicio) verde-escuro 
+Com a PROPRIEDADE color
+*/
+.verde-escuro{
+    color: #339900;
+    /* Propriedade color muda a cor do texto*/
+}
+
+/* Regra CSS para Título em maiúsculo */
+.titulo{
+    /*Propriedade que modifica conteúdo da tag*/
+    text-transform: uppercase;
+}
+
+.coluna{
+    /* Do ingles flutuar 
+    A propriedade FLOAT define o 
+    fluxo dos elementos na tela
+    */
+    float: right;
+    /* Limitar tamanho horizontal*/
+    max-width: 300px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #999999;
+}
+
+/* Sempre serão usadas para alinhar colunas à esquerda */
+.coluna-esquerda{
+    float: left;
+}
+/* Sempre serão usadas para alinhar colunas à direita */
+.coluna-direita{
+    float: right;
+}
+/* Aplicado a tudo que for necessário colocar como fundo azul. */
+.fundo-azul{
+    background-color: blue; 
+}
