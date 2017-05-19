@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercicio Wikipedia </title>
+        <meta charset="UTF-8">
+        <style>
+            /* REGRA CSS que aplica a todas as tags <body> */
+            body{
+                /* Propriedade margin com 4 parâmetros (topo, direita, base, esquerda) */
+                margin: 30px 50px 100px 50px;
+            }
+            th{
+                border-style: solid;
+                border-width: 1px;
+                border-color: red;
+            }
+            td {
+                /* Propriedade border com 3 parâmetros (cor, tipo, largura) */
+                border: orange solid 1px;
+                /*  */
+            }
+
+            /* REGRA CSS aplicada a CLASSE painel_de_links que define um espaçamento e cor de fundo*/
+            .painel_de_links{
+                padding: 10px 10px 10px 50px;
+                background-color: #EEE;
+            }
+        </style>
+
+    </head>
+    <body style="">
+        <h1>Tim Berners-Lee</h1>
+        <hr>
+        <small>Fonte: Wikipedia</small> 
+        <small>(<a href="https://pt.wikipedia.org/wiki/Tim_Berners-Lee">Ver o original</a>)</small>
+
+        <p >
+            <b>Timothy John Berners-Lee</b>, (<b>TimBL</b> ou <b>TBL</b>) (<a href="https://pt.wikipedia.org/wiki/Londres">Londres</a>, <a href="https://pt.wikipedia.org/wiki/8_de_junho">8 de junho</a> de <a href="https://pt.wikipedia.org/wiki/1955">1955</a>é um físico britânico, cientista da computação e professor do MIT. É o criador da World Wide Web, tendo feito a primeira proposta para sua criação a 25 de março de 1989.[2] Em 25 de dezembro de 1990, com a ajuda de Robert Cailliau e um jovem estudante do CERN, implementou a primeira comunicação bem-sucedida entre um cliente HTTP e o servidor através da internet.
+        </p>
+
+        <!-- Ordered List = Lista ordenada -->
+        <ol class="painel_de_links">
+            <li><a href="#vida">Vida</a></li>
+            <li><a href="#primeiro_site">Primeiro Site</a></li>
+            <li><a href="#atualmente">Trabalho atual</a></li>
+            <li><a href="#links">Links</a></li>
+        </ol>
+
+
+        <!-- o id da secção pode servir de atalho adicionando #vida em um link (<a>) -->
+        <h3 id="vida">Vida e Obra</h3>
+        <hr>
+        <p>
+            Berners-Lee nasceu em Londres, Inglaterra, filho de Conway Berners-Lee e Mary Lee Woods.[11] Estudou na escola primária Sheen Mount e depois na Emanuel School em Londres, de 1969 a 1973. Depois estudou no The Queen's College, em Oxford, de 1973 a 1976, onde diplomou-se em Física.[1]
+        </p>
+        <p>
+            Enquanto atuava como um contratante independente no CERN, de junho a dezembro de 1980, Berners-Lee propôs um projeto baseado no conceito de hipertexto para facilitar a partilha e atualização de informações entre os pesquisadores.[12] Enquanto isso, ele construiu um protótipo de sistema denominado ENQUIRE. Depois de deixar o CERN, em 1980, foi trabalhar na John Poole's Image Computer Systems, Ltd, em Bournemouth, na Inglaterra, mas retornou ao CERN em 1984 como efetivo. Em 1989, o CERN foi o maior nó da internet na Europa, e Berners-Lee viu a oportunidade de unir hipertexto com internet: "Eu só precisei tomar a ideia de hipertexto e conectá-la às ideias de Transmission Control Protocol e Domain Name System e - ta-da! - a World Wide Web".[13] Ele escreveu a sua proposta inicial em março de 1989, e em 1990, com a ajuda de Robert Cailliau, produziu uma revisão que foi aceita pelo seu empresário, Mike Sendall. Ele usou ideias semelhantes àquelas subjacentes ao sistema ENQUIRE para criar a World Wide Web, para o que ele projetou e construiu o primeiro navegador da Web, que também funcionava como um editor (WorldWideWeb, rodando no sistema operacional NEXTSTEP) e o primeiro servidor Web, o CERN httpd (abreviação para HyperText Transfer Protocol daemon).
+        </p>
+
+
+        <!-- o id da secção pode servir de atalho adicionando #primeiro_site em um link (<a>) -->
+        <h3 id="primeiro_site">Primeiro Web Site</h3>
+        <hr>
+        <p>
+            O primeiro website que Tim Berners-Lee construiu - inicialmente unicamente com página de texto - foi no CERN e foi colocada online em 6 de agosto de 1991. Oferecia uma explicação sobre o que a World Wide Web era, como alguém poderia criar um navegador, como instalar e configurar um servidor web, e assim por diante. Foi também o primeiro diretório.
+        </p>
+
+        <!-- o id da secção pode servir de atalho adicionando #atualmente em um link (<a>) -->
+        <h3 id="atualmente">Treabalho Atual </h3>
+        <hr>
+        <p>
+            Comentando sobre a abertura do Ordnance Survey dados em abril de 2010 Berners-Lee disse que "as mudanças sinalizam uma cultura mais ampla no Governo com base no pressuposto de que a informação deve ser do domínio público a menos que haja uma boa razão para o contrário." Ele passou a dizer que "uma maior abertura, responsabilidade e transparência no Governo vai dar às pessoas um maior poder de escolha e tornar mais fácil para os indivíduos se envolverem diretamente com as questões que são mais importantes para eles."
+        </p>
+        <p>
+            Em Novembro de 2009, Berners-Lee lançou a Fundação World Wide Web, a fim de "avançar a Web para capacitar a humanidade lançando programas transformadores que constroem capacidade local para alavancar a Web como um meio para uma mudança positiva".
+        </p>
+        <p>
+            Berners-Lee é uma das vozes pioneiras em favor da neutralidade da rede, e manifestou a opinião de que os ISPs devem fornecer conectividade "sem amarras", e não deve controlar nem monitorar as atividades de navegação de clientes sem o seu consentimento expresso. Ele defende a ideia de que a neutralidade da rede é uma espécie de direito humano. As ameaças à Internet, tais como empresas ou governos que interferem no tráfego de Internet, comprometem os direitos básicos de rede humanos.
+        </p>
+
+
+        <!-- o id da secção pode servir de atalho adicionando #links em um link (<a>) -->
+        <h3 id="links">Links</h3>
+        <hr>    <!-- <table> HTML forma o quadro da tabela -->
+        <table style="border: #3333ff solid 1px; text-align: center">
+            <!-- table row <tr> Linha da tabela -->
+            <tr>
+
+                <!-- Coluna de título com expansão em 4 colunas (column spans = colspan) -->
+                <th colspan="4">Referencias do texto</th>
+                <!-- Sobre COLSPAN acesse: https://www.w3schools.com/tags/att_td_colspan.asp -->
+
+            </tr>
+            <tr>
+
+                <!-- Coluna de título -->
+                <th>Coluna 1</th>
+                <!-- Colunas normais-->
+                <td>Coluna 2</td>
+                <td>Coluna 3</td>
+                <td>Coluna 4</td>
+
+            </tr>
+            <tr>
+
+                <th>Coluna 1 </th>
+                <!-- Colunas normais-->
+                <td>Coluna 2</td>
+                <td>Coluna 3</td>
+
+            </tr>
+        </table> 
+
+
+    </body>
+</html>
