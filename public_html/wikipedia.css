@@ -1,0 +1,16 @@
+/*
+# (hashtag) representa o atributo ID 
+    nas tags
+. (ponto) Representa o atributo class
+*/
+
+#logotipo{
+    width: 200px
+}
+
+#coluna_de_links{
+    width: 250px;
+}
+#coluna_de_conteudo{
+    
+}

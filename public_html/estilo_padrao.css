@@ -35,11 +35,8 @@ Com a PROPRIEDADE color
     fluxo dos elementos na tela
     */
     float: right;
-    /* Limitar tamanho horizontal*/
-    max-width: 300px;
     margin: 5px;
     padding: 10px;
-    background-color: #999999;
 }
 
 /* Sempre serão usadas para alinhar colunas à esquerda */
@@ -54,3 +51,36 @@ Com a PROPRIEDADE color
 .fundo-azul{
     background-color: blue; 
 }
+
+/* Regra CSS para classe tabela-links*/
+.tabela-links{
+    /* dotted é pontilhado em ingles */
+    /* border é uma regra que aceita 3 parâmetros */
+    border: black dotted 1px;
+}
+
+/* Regra css para TH DENTRO de classe tabela-links */
+/* Herança no CSS */
+.tabela-links th{
+    background-color: #EEEEEE;
+}
+
+/* 
+* significa TUDO 
+aplicar regra a TUDO dentro de TR 
+que está dentro de .tabela-links
+*/
+.tabela-links tr td, .tabela-links tr th{
+    padding: 10px;
+    font-family: 'calibri';
+}
+
+.ajuste-img{
+    /* Tamanho maximo de 1000px */
+    /*width: 100px;*/
+    max-width: 300px;
+    min-width: 100px;
+    /*height significa Altura em inglês*/
+    /*height: 500px*/
+}
+

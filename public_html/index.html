@@ -8,23 +8,57 @@
     </head>
     <body>
         <!-- Definindo uma classe para a tag <h1> através do ATRIBUTO class -->
-        <h1 class="verde-escuro titulo vermelho">Projeto - Maico Dal Ponte</h1>
+        <h1 class="verde-escuro titulo vermelho">PÁGINA INICIAL - curso de Web Design </h1>
         <!-- A tag <hr> apresenta uma linha horizontal na página -->
         <hr> 
 
         <!-- Aqui, criamos uma REGRA no CSS aplicada à classe "coluna" que vai defirir como cada coluna será. 
         Logo depois, criamos outra REGRA para definir que esta coluna será alinhada à esquerda -->
-        <p class="coluna coluna-esquerda"> 
-            <!-- A tag <b> representa "bold" (negrito em inglês).
-            Esta tag aumenta o VALOR da PROPRIEDADE font-weight (do CSS) -->
-            <b class="verde-escuro titulo">Dados pessoais</b><br>
-            Idade: 24 Anos
-            Ano: -- 
-        </p>
+
+
+        <!-- a tag <div> serve para separar o conteúdo
+        e não pre-definição nenhuma, diferente de 
+        <p> ou <b> ou <h1>, <h2 e etc...
+        É apenas uma tag, que você vai utilizar 
+        para estilizar você mesmo, usa classes e ids
+        -->
+        <div class="coluna coluna-esquerda"> 
+
+            <img class="ajuste-img" src="vaca.gif">
+
+            <p>
+                <!-- A tag <b> representa "bold" (negrito em inglês).
+                Esta tag aumenta o VALOR da PROPRIEDADE font-weight (do CSS) -->
+                <b class="verde-escuro titulo">Dados pessoais</b><br>
+                Idade: 24 Anos
+                <br/>
+                Ano: 1992
+                <!-- src é abreviação de source (fonte) -->
+            </p>
+
+            <iframe width="350" height="250" src="https://www.youtube.com/embed/epDCjksKMok" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+
+
         <!-- Repetimos a classe de coluna, para aplicar o estilo que é comum a todas e adicionamos a classe que alinhará a esta coluna à direita -->
-        <p class="coluna coluna-direita">
-            <b class="verde-escuro titulo"> Lista de exercicios</b><br>
-            <a href="elementos.html">Elementos HTML.</a>
-        </p>
+        <table class="coluna coluna-direita tabela-links">
+            <tr>
+                <th>Link</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td> <a href="index.html"> Index</a> </td>
+                <td> <b>Página inicial</b>, primeira página feita em sala</td>
+            </tr>
+            <tr>
+                <td> <a href="elementos.html">Elementos</a> </td>
+                <td> Página com elementos HTML </td>
+            </tr>
+            <tr>
+                <td> <a href="wikipedia.html"> Wikipedia</a> </td>
+                <td> Página estilo Wikipedia</td>
+            </tr>
+        </table>
     </body>
 </html>
