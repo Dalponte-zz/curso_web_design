@@ -1,0 +1,92 @@
+/*
+# (hashtag) representa o atributo ID 
+    nas tags
+. (ponto) Representa o atributo class
+*/
+body{
+    /* Regras para posicionar imagem como fundo */
+    background-image: url('vaca.gif');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+
+/*
+Apenas uma regra para pitar as bordas das colunas dentro das tabelas
+Para facilitar visualização 
+*/
+#conteudo_interno table th,
+#conteudo_interno table td{
+    border: orange 1px dotted;
+}
+/* esta regra apenas será aplicada quando o mouse passar por cima */
+#conteudo_interno table td:hover,
+#conteudo_interno table th:hover{
+    color: #a55200;
+    background-color: #ffe0c1;
+}
+
+
+
+
+
+#logotipo{
+    width: 200px;
+}
+
+#coluna_de_links{
+    background-color: #EEE;
+    text-align: center; /*Alinha o texto da tag*/
+    width: 250px;
+}
+/* Adiciona conteúdo */
+#coluna_de_conteudo{
+    padding-left: 15px;
+}
+
+/* lista não ordenada de links na lateral esquerda*/
+#lista_de_links_lateral, 
+#lista_de_links_idiomas{
+
+    /*Remove o estilo de lista (os
+    pontos ou circulos ao lado de cada item)*/
+    list-style: none;
+
+    text-align: left;
+    /* Remove o espaçamento a esquerda de cada item da lista */
+    padding: 0;
+    padding-left: 10px; /*Sobrescreve*/
+}
+
+/* A classe define espaçamento lateral a esquerda
+Se houver uma regra de ID (#), esta será sobreescrita*/
+.margem-left{
+    padding-left: 40px;
+}
+
+.painel_de_links{
+    width: 250px;
+    border: black solid 2px;
+}
+
+/*Estilizar títulos do menu lateral*/ 
+.titulo_menu{
+    text-transform: uppercase;
+    color: #555;
+    /*Espaçamento entre as letras*/
+    letter-spacing: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 100;
+    font-size: 10pt;
+}
+
+
+
+
+
+
+
+

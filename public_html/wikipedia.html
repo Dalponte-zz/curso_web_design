@@ -4,38 +4,30 @@
         <title>exercicio Wikipedia </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="wikipedia.css">
-        <style>
-            th{
-                border-style: solid;
-                border-width: 1px;
-                border-color: red;
-            }
-            td {
-                /* Propriedade border com 3 parâmetros (cor, tipo, largura) */
-                border: orange solid 1px;
-                /*  */
-            }
-
-            /* REGRA CSS aplicada a CLASSE painel_de_links que define um espaçamento e cor de fundo*/
-            .painel_de_links{
-                padding: 10px 10px 10px 50px;
-                background-color: #EEE;
-            }
-        </style>
-
     </head>
-    <body style="">
+    <body >
         <!-- Esta página será estilizada utilizando tabelas como base do layout. 
         Estilização usando tabelas não é uma coisa aceitavel no mercado hoje.
         Entretanto é necessário conhece-la e também facilita a compreenção do 
-        design posterior das páginas que utilizarão técnicas atuais. -->
+        design posterior das páginas que utilizarão técnicas atuais. 
+        
+        Para detalhes sobre como funciona tabelas:
+        https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/table
+        -->
         <table width="100%">
             <tr>
-                <td id="coluna_de_links">
+                <td valign="top" id="coluna_de_links"> <!-- PESQUISAR table valign w3scools -->
                     <!-- Nesta coluna serão colocados os links que a wikipedia possuí na lateral    -->
                     <img src="wikipedia_logo.gif" id="logotipo">
-                    <ul>
-                        <li>
+
+                    <!-- 
+                    UL significa "unsortered list" 
+                    Sobre <ul> vejam https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ul
+                    
+                    Usamos a UL aqui para servir como menu 
+                    -->
+                    <ul id="lista_de_links_lateral" class="margem-left"> 
+                        <li> <!-- Item da lista-->
                             <a href="index.html" >Página inicial</a>
                         </li>
                         <li> 
@@ -43,16 +35,36 @@
                         </li>
                     </ul>
 
+                    <h4 class="titulo_menu">Artigo disponível em outros idiomas</h4>
+                    <ul id="lista_de_links_idiomas">
+                        <li><a href="">Inglês</a></li>
+                        <li><a href="">Português</a></li>
+                        <li><a href="">Italiano</a></li>
+                        <li><a href="">Alemão</a></li>
+                        <li><a href="">Esloveno</a></li>
+                        <li><a href="">Chines</a></li>
+                        <li><a href="">Latim</a></li>
+                    </ul>
+
                 </td>
                 <td id="coluna_de_conteudo">
                     <!-- A coluna do conteúdo TEM uma TABELA para organizar o conteúdo -->
-                    <table  id="carlos">
-                        <!-- Se aberta uma tabela, esta deve necessáriamente conter linhas  -->
-                        <tr id="linha_de_titulo_em_carlos">
-                            <!-- Para exibir algum conteúdo, uma coluna deve ser utilizada -->
+                    <table id="conteudo_interno">
+                        <tr class="linha-1"> <!-- Linha 1 da tabela #conteudo_interno -->
                             <td>
-                                
-                                
+                                <nav>
+                                    <a href="wikipedia.html">HOME</a>
+                                    <a href="http://w3c.com">W3C</a>
+                                    <a href="index.html">Contato</a>
+                                </nav>
+                            </td>	
+                        </tr>
+                        <!-- Se aberta uma tabela, esta deve necessáriamente conter linhas  -->
+                        <tr class="linha-2"> <!-- Linha 2 da tabela #conteudo_interno -->
+                            <!-- Para exibir algum conteúdo, uma coluna deve ser utilizada -->
+                            <td >
+
+
                                 <h1>Tim Berners-Lee</h1>
                                 <hr>
                                 <small>Fonte: Wikipedia</small> 
@@ -61,22 +73,27 @@
                                 <p >
                                     <b>Timothy John Berners-Lee</b>, (<b>TimBL</b> ou <b>TBL</b>) (<a href="https://pt.wikipedia.org/wiki/Londres">Londres</a>, <a href="https://pt.wikipedia.org/wiki/8_de_junho">8 de junho</a> de <a href="https://pt.wikipedia.org/wiki/1955">1955</a>é um físico britânico, cientista da computação e professor do MIT. É o criador da World Wide Web, tendo feito a primeira proposta para sua criação a 25 de março de 1989.[2] Em 25 de dezembro de 1990, com a ajuda de Robert Cailliau e um jovem estudante do CERN, implementou a primeira comunicação bem-sucedida entre um cliente HTTP e o servidor através da internet.
                                 </p>
-                                
-                                
+
+
+                            </td>
+                            <td>
+                                <img style="max-width: 250px" src='imagens/Tim.jpeg'>
                             </td>
                         </tr><!-- fim da #linha_de_titulo_em_carlos-->
-                        <tr id="linha_de_links_em_carlos">
-                            <td>
-                                
-                                
+                        <tr class="linha-3"><!-- Linha 3 da tabela #conteudo_interno -->
+                            <td colspan='2'>
+
                                 <!-- Ordered List = Lista ordenada -->
-                                <ol class="painel_de_links">
+                                <ol id="painel_de_links" class="painel_de_links" style="width:250px">
                                     <li><a href="#vida">Vida</a></li>
                                     <li><a href="#primeiro_site">Primeiro Site</a></li>
                                     <li><a href="#atualmente">Trabalho atual</a></li>
                                     <li><a href="#links">Links</a></li>
                                 </ol>
-
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan='2'>
 
                                 <!-- o id da secção pode servir de atalho adicionando #vida em um link (<a>) -->
                                 <h3 id="vida">Vida e Obra</h3>
@@ -117,7 +134,7 @@
                                     <tr>
 
                                         <!-- Coluna de título com expansão em 4 colunas (column spans = colspan) -->
-                                        <th colspan="4">Referencias do texto</th>
+                                        <th colspan="4">Coluna que ocupa 4 espaços</th>
                                         <!-- Sobre COLSPAN acesse: https://www.w3schools.com/tags/att_td_colspan.asp -->
 
                                     </tr>
@@ -136,15 +153,22 @@
                                         <th>Coluna 1 </th>
                                         <!-- Colunas normais-->
                                         <td>Coluna 2</td>
-                                        <td>Coluna 3</td>
+                                        <td colspan="2">Coluna que ocupa 2 espaços</td>
 
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5">
+                                            Coluna que ocupa <b>5</b> espaços.
+                                            <br>Assim, acaba sobrando um espaço nas outras linhas
+                                        </td>
                                     </tr>
                                 </table> <!-- Fim da tabela de links ao fim da página -->
 
 
+                                
                             </td>
                         </tr>
-                    </table> <!-- Fim da tabela #carlos-->
+                    </table> <!-- Fim da tabela #conteudo_interno -->
 
                 </td> <!-- fim da #coluna_de_conteudo-->
             </tr>

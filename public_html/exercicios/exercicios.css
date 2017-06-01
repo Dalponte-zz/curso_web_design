@@ -1,0 +1,27 @@
+/*
+Este CSS tem algumas classes básicas para estruturar os exercicios 
+da pasta "exercicios"
+*/
+.left{
+    display: block;
+    float: left;
+}
+.right{
+    display: block;
+    float: right;
+}
+
+.tabela-para-estilizar{
+    width: 500px;
+}
+.tabela-para-estilizar tr td,
+.tabela-para-estilizar tr th{
+    margin: 5px;
+    border: #EEE 3px solid;
+    box-shadow: #AAA 1px 1px 1px ;
+    text-align: center;
+}
+td:hover, th:hover{
+    color: #d0d00f;
+    text-decoration: underline;
+}
