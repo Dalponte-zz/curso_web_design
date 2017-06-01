@@ -5,11 +5,11 @@
 */
 body{
     /* Regras para posicionar imagem como fundo */
-    background-image: url('vaca.gif');
+/*    background-image: url('vaca.gif');
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 0;
+    margin: 0;*/
 }
 
 
@@ -83,6 +83,9 @@ Se houver uma regra de ID (#), esta será sobreescrita*/
     font-size: 10pt;
 }
 
+.menu-topo{
+    text-align: right;
+}
 
 
 

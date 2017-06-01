@@ -1,0 +1,71 @@
+
+/*Remover padrão de margem 
+do body*/
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+/* ACTIVE é um modificador
+para evento de click do mouse*/
+a:active{
+    color: #ccccff;
+}
+/* HOVER é um modificador
+para quando o mouse passa 
+pelo elemento*/
+a:hover{
+    background-color: #fff; 
+}
+
+.container{   
+    max-width: 800px;
+    margin: auto;
+    /* trata a tag como um 
+    bloco que vai */
+    display: block;
+}
+
+.menu{
+    height: 50px;
+    color: white;
+    background-color: #5f5ff6;
+
+}
+/* link (tag <a>) que estiver
+dentro do elemento .menu */
+.menu a{
+    padding: 10px;
+    color: #FFF;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    /* Seja um bloco solido */
+    display: block;/* inline*/
+    /* flua à esquerda */    
+    float: left;
+}
+.menu a:hover{
+    color: #3333ff; 
+}
+
+.banner{
+    height: 500px;
+    background-image: url('imagens/rua.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner .titulo{
+    color: #FFF;
+    text-align: center;
+    font-family: 'calibri';
+    font-weight: 100;
+    width: 100%;
+    margin-top: 200px;
+    display: block;
+    float: left;
+}
+

@@ -25,3 +25,16 @@ td:hover, th:hover{
     color: #d0d00f;
     text-decoration: underline;
 }
+
+.verde {
+    background-color: #99ff99;
+    height: 100px
+}
+.vermelho {
+    background-color: #ff6666;
+}
+.azul {
+    background-color: #9999ff;
+}
+
+
