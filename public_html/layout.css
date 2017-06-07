@@ -20,7 +20,7 @@ a:hover{
     background-color: #fff; 
 }
 
-.container{   
+.container{
     max-width: 800px;
     margin: auto;
     /* trata a tag como um 
@@ -69,3 +69,49 @@ dentro do elemento .menu */
     float: left;
 }
 
+.bg-image{
+    background-image: url('imagens/fundo-3.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+}
+.bg-branco{
+    background-color: white;
+}
+/* Classe para ser reutilizada como secção do site*/ 
+.section{
+    font-size: 15pt;
+    font-family: 'calibri';
+    padding: 2%; 
+    /* Manter o tamanho de acordo 
+    com o conteúdo*/
+    display: block;
+    float: left;
+    /* 100% - 2% - 2% */
+    width: 96%;
+}
+
+#fundamentos{
+    display: block;
+    width: 100%;
+    padding: 2px;
+    height: 170px;
+}
+/* classe .fundamento DENTRO de id #fundamento*/
+#fundamentos .fundamento{
+    display: block;
+    float: left; 
+    width: 33%;
+    height: 150px;
+    /*padding: 5px; largura aplicada em 
+    aos 33% da largura definida acima ADIÇÃO*/
+}
+#fundamentos .fundamento:hover{
+    background-color: #ccccff;
+    text-decoration: underline;
+}
+
+/* Aplica a todos as tags h5 dentro de #fundamentos*/
+#fundamentos h5{
+    text-align: center;
+    text-transform: uppercase;
+}
