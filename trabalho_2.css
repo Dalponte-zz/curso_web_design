@@ -1,0 +1,31 @@
+
+.section {
+    display: block;
+    height: auto; /* auto é AUTOMATICO */
+
+    width: 100%;
+    margin: 5px;
+}
+
+.delimita-largura{
+    display: block;
+    margin: auto;
+
+    width: 800px;
+    height: auto;
+
+    border: #000000 solid 1px;
+}
+
+.menu{
+    background-color: #9999ff;
+}
+.banner{
+    background-image: url('../imagens/fundo-2.jpg');
+    background-size: 100%;
+    text-align: center;
+    color: white;
+}
+.estilos{
+    background-color: white;
+}
