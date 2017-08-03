@@ -1,0 +1,67 @@
+.setor{
+    width: 100%;
+    display: block;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+*{
+    font-family: 'Arial';
+}
+.linha{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.logomarca{
+    font-size: 30pt;
+}
+.logo-r{
+    font-weight: 800;
+    float: left;
+    line-height: 32pt;
+}
+.logo-l{
+    font-weight: 100;
+    float: left;
+    line-height: 35pt;
+}
+.contato{
+    float: right;
+}
+#menu{
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+
+    border-top: #777 2px dotted;
+    border-bottom: #777 2px dotted;
+}
+
+#menu a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.bloco-maior{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+}
+.img{
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    display:block;
+    float:left;
+}
+.palavra{
+    float: left;
+    text-align: center;
+}

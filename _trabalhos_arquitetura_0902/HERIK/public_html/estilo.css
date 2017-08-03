@@ -1,0 +1,107 @@
+*{
+    font-family: 'Arial';
+}
+.linha{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.logomarca{
+    font-size: 30pt;
+}
+.logo-r{
+    font-weight: 800;
+    float: left;
+    line-height: 35pt;
+}
+.logo-l{
+    font-weight: 100;
+    float: left;
+    line-height: 35pt;
+}
+.contato{
+    float: right;
+}
+#menu{
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+
+    border-top: #777 2px dotted;
+    border-bottom: #777 2px dotted;
+}
+
+#menu a{
+    text-transform: uppercase;
+    color: #888;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+.portfolio{
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.img-container{
+    display: block;
+    float: right;
+    width: 370px;
+    /*max-height: 200px;*/
+    
+    /*border: red 2px solid;*/
+    overflow: hidden;
+}
+.img-container img{
+    width: 100%;
+}
+
+.aspecto-1{
+    width: 300px;
+    height: 300px;
+}
+.aspecto-2{
+    width: 400px;
+    height: 200px;
+}
+.titulo{
+    font-size:100px;
+    font-family: Bodoni MT Condensed;
+    
+        
+}
+.setor{
+    width: 100%;
+    min-height: 100%;
+    
+}
+.delimitador{
+    width: 800px;
+    margin: auto;
+}
+.texto{
+    float: left;
+    width: 350px;
+    display: block;
+    
+    text-align: left;
+}
+.tamanho{
+    width: 800px;
+}
+.descriçao-2{
+    float: left;
+    width: 250px;
+    text-align: center;
+    
+    
+}
+.descriçao-3{
+    float: left;
+    
+    width: 200px;
+    text-align: center;
+}

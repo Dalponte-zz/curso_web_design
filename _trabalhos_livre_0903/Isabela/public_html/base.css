@@ -1,0 +1,109 @@
+@import 'reset.css';
+
+.cordofundo{
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+
+.titulostyle{
+    font-family: 'Georgia';
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    color: pink;
+}
+
+.fontestyle{
+    font-family: 'Georgia';
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.fonte_segundo_titulo{
+    font-family: 'Georgia';
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: white;    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+#menu ul li{
+    float: left;    
+    font-family: 'calibri';
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.delimitador{
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-color: black;
+    height: 1024px
+}
+
+.item{
+    display: inline;
+    border: #ffcccc 1px solid;
+    width: 350px;
+    margin: 10px;
+}
+
+.navstyle{
+    font-family: 'Georgia';
+    font-weight: 800;
+    font-size: 12px;
+    margin: 9px;
+    color: white;
+    text-decoration: underline;
+}
+
+.setor{
+    display: block;
+    width: 800px;
+    margin: auto;
+    background-color: darkred;
+}
+
+.setorcentro{
+    display: block;
+    width: 800px;
+    margin: auto;
+    background-color: black;
+}
+
+.textoestilo{
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    font-size: 16px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.banner{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.imagem{
+    margin: auto;
+    width: 30px;
+}

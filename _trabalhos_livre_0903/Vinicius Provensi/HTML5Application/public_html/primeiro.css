@@ -1,0 +1,96 @@
+.titulo{
+    text-align: center;
+    font-size: 40px;
+     color: white;
+     
+}
+.container{
+    width: 800px;
+    margin:0 auto;
+}
+.divisor{
+    display: block;
+   width: 100%;
+    background-color: azure;
+    height: 350px;
+    border: 4px solid aquamarine;
+}
+.texto1{
+    width: 49%;
+    border: solid 1px aqua;
+    float: left;
+}
+.imagem1{
+    float: right;
+    border: solid 1px aqua;
+}
+.bens_de_lucio{
+   display: block;
+   background-color: azure ;
+   width: 100%;
+   height: 300px;
+   border: 4px solid aquamarine;
+}
+.imagem2{
+    background-color: azure;
+    display: block;
+    border: solid 4px aquamarine;
+    height: 300px;
+    width: 100%
+}
+.trator{
+    width: 49%;
+    border: solid 1px aqua;
+}
+.imgtrator{
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+.newholland{
+    width: 390px;
+    height: 300px;
+    float: right;
+    border: solid 1px aqua;
+}
+#menu ul li {
+    float: left;
+    padding: 30px;
+}
+#menu a:hover{
+    color:red;
+}
+#menu a{
+    padding: 20px;
+
+}
+.textogrande{
+    font-size: 20pt;
+    color: white;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+.fazenda{
+   display: block;
+   background-color: azure ;
+   width: 100%;
+   height: 300px;
+   border: 4px solid aquamarine;
+}
+.alqueires{
+    font-size: 20pt;
+    width: 49%;
+     border: solid 1px aqua;
+     float: left;
+}
+.img4{
+    border: solid 1px aqua;
+    float: right;
+    width: 400px;
+    height: 299px;
+}
+
+    

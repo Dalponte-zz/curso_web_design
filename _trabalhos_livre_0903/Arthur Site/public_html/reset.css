@@ -1,0 +1,126 @@
+
+/* 
+    Created on : 03/08/2017, 14:49:20
+    Author     : Arthur
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea ,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img {
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym {
+    border:0;
+}
+/*Aqui terminam as configurações reset*/
+.nomargin{
+    margin: 0px;
+}
+.cem_por_cento{
+    width: 100%;
+    height: 100%;
+}
+.delimitador{
+    width: 1024px;
+    display:block;
+    margin:auto;
+}
+.painel_de_cima{
+    padding-top: 10px;
+    background-color: #000000;
+    height:110px;
+}
+.texto_branco{
+    font-family: calibri;
+    color:white;
+    font-size: x-large;
+}
+.text_align{
+    text-align: center;
+}
+.background_negro{
+    background-color: #000000;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.padding_texto{
+    padding: 10px;
+}
+.meio{
+    height:400px;
+}
+.img-c{
+    float: left;
+}
+.img-c img{
+    width: 100%
+}
+.img_esquerda{
+    display: block;
+    padding:50px 40px 50px 60px;
+    width:400px;
+    height:250px;
+}
+.img_direita{
+    float: right;
+    display: block;
+    width: 400px;
+    height: 250px;
+    padding: 50px 70px 50px 50px;
+}
+.color_dark{
+    background-color: #660000;
+    height:3px;
+    border:#330000 2px solid;
+}
+.titulo{
+    font-family: calibri;
+    color: #990000 ;
+    font-size: 50px;
+}
+.color_red{
+    color:#990000;
+    background-color:#330000
+}
+.back_black{
+    background-color: #000000;
+}
+.quadrado{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #660000;
+}
+.padding_bottom{
+    padding-bottom: 100px;
+}
+.margin_auto{
+    margin: auto;
+}

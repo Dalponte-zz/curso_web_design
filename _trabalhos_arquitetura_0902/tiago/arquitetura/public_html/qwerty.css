@@ -1,0 +1,101 @@
+.cpc{
+    width: 100%;
+    min-height: 100%;
+    display: block;
+}
+.titulo{
+    font-family: calibri;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    margin-top: 20px;
+    text-align: center;
+}
+.del{
+    display: block;
+    width:800px;
+    margin:auto;
+}
+.imagem1{
+    float:right;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+}
+.padtop{
+    padding-top: 50px;
+}
+.cliques{
+    padding-top: 100px;
+    
+   
+}
+.clique1{
+    padding:30px;
+    background-color: #66ff66;
+    float: left;
+     display: block;
+     text-align: center;
+     max-width: 200px;
+     height: 400px;
+}
+.clique2{
+    padding:30px;
+    background-color: #66ffff;
+    float: left;
+    display: block;
+    text-align: center;
+    max-width: 200px;
+    height: 400px;
+}
+.clique3{
+    padding:30px;
+    background-color: #3333ff;
+    float: left;
+    display: block;
+    text-align: center;
+    max-width: 200px;
+    height: 400px;
+}
+*{
+    font-family: 'Arial';
+}
+.linha{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.logomarca{
+    font-size: 30pt;
+}
+.logo-r{
+    font-weight: 800;
+    float: left;
+    line-height: 35pt;
+}
+.logo-l{
+    font-weight: 100;
+    float: left;
+    line-height: 35pt;
+}
+.contato{
+    float: right;
+}
+#menu{
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+
+    border-top: #777 2px dotted;
+    border-bottom: #777 2px dotted;
+}
+
+#menu a{
+    text-transform: uppercase;
+    color: #888;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+}
