@@ -1,38 +1,18 @@
-# curso_web_design
+# Curso de Web Design
 Repositório (local de armazenagem) dos arquivos desenvolvidos no decorrer do curso
 
-# Para a primeira avaliação 08/06/2017
+# Organização: 
+ - Para cada projeto criado, um novo item será adicionado com um número à frente.
+ - Para cada trabalho que deve ser entregue, uma nova pasta com prefixo "_" será adicionada.
 
-1. Saber o que é: 
-	- Tag
-	- Atributo da tag
-	- Conteúdo da tag
-	- Regra CSS
-	- Propriedade CSS
-	- Valor da propriedade
-	- Declaração (abertura) da tag
-	- Finalização da tag
-2. Saber Como faz: 
-	- Fundo com cores
-	- Fundo com imagens
-	- Mostrar como bloco (display:block)
-	- alinhar bloco a direita (display, float)
-	- Tamanho (width, height, padding, margin)
-	- Unidades de medida para tamanho (px ou %)
-	- Espaçamento interno (padding)
-	- Espaçamento externo (margin)
-	- Tamanho de fonte
-	- Largura de fonte
-	- Tipo de fonte
-	- Alinhamento de fonte
-3. Saber o que faz como
-	- cabeçalho (head)
-	- Corpo (body)
-	- headings (h1, h2, h3 ...)
-	- paragrafos (p)
-	- estilo (b, i, u)
-	- Divisor(div)
-	- listas (ul e ol com li)
-	- Tabelas (table com tr, th e td)
-	- Expansão de colunas (atrib. colspan)
-	- Expansão de linhas (atrib. rowspan)
+ - Cada trabalho, deve ser armazenado em uma pasta com o nome do aluno.
+
+# Na aba de Issues
+1. Serão adicionados atividades que deverão ser feitas. Com a tag Atividades.
+2. Caso tenham dúvidas ou precisam de instrução para como fazer, criem uma issue onde eu e os colegas poderemos ajuda-lo.
+3. Caso tenham links para compartilhar, ou outras iformações, adicionem issues para este fim.
+
+# Referências
+
+Assistam quando possível o seguinte curso pelo YOUTUBE
+https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o
