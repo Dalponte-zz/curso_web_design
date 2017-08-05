@@ -1,0 +1,80 @@
+@import 'reset.css';
+
+*{
+    font-family: 'Calibri';
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.container{
+    width: 1000px;
+    margin:  0 auto;
+}
+
+#menu {
+    height: 40px;
+}
+#menu li{
+    float: left;    
+}
+#menu a:hover{
+    background-color: #990000;
+    color: white;
+}
+#menu a{
+    padding: 10px 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.coluna {
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.metade{
+    width: 50%;
+}
+
+.bg_imagem{
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_azul {
+    background-color: #95b6de;
+}
+
+.bg_vermelho {
+    background-color: #de9595;
+}
+
+.bg_verde {
+    background-color: #ccffcc;
+}
+
+.bg_cinza{
+    background-color: #cccccc;
+}
+
+/* Tag H1 que estiver dentro da tag com classe .topo_com_titulo */
+.topo_com_titulo h1{
+    font-size: 50pt;
+    line-height: 100px;
+}
+.topo_com_titulo{
+    color: red;
+}
+.topo_com_titulo .logo-container{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    float: left;
+    margin: 15px;
+}
+.topo_com_titulo img{
+    height: 100px;
+}
