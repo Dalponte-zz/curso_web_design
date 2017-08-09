@@ -37,6 +37,8 @@ footer{
 }
 .metade{
     width: 50%;
+    border: red 1px solid;
+    /*margin: 15px;*/
 }
 
 .bg_imagem{
@@ -77,4 +79,33 @@ footer{
 }
 .topo_com_titulo img{
     height: 100px;
+}
+.colunas_em_porcento div.display-block{
+    padding: 10px 15px;
+    text-align: center;
+    line-height: 85px;
+    color: #AAA;
+}
+
+.display-block{
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    /* Uma borda para facilitar o alinhamento */
+    border: red 1px dashed;
+}
+/* Largura: 100% */
+.l-100{ width: 100%; }
+/* Largura: 50% */
+.l-50{ width: 50%;}
+/* Largura: 33% */
+.l-33{ width: 33%;}
+/* Largura: 25% */
+.l-25{ width: 25%;}
+
+.a-100px{
+    height: 100px;
+}
+.a-auto{
+    height: auto;
 }
