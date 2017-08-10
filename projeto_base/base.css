@@ -1,18 +1,25 @@
 @import 'reset.css';
+@import 'grid.css';
+@import 'tabela.css';
 
 *{
     font-family: 'Calibri';
 }
 footer{
-    position: fixed;
+    position: fixed;    
     bottom: 0;
+}
+.setor{
+    width: 100%;
+    float: left;
 }
 
 .container{
     width: 1000px;
     margin:  0 auto;
+    /* para facilitar o ajuste */
+    border-left: yellow 1px dashed;
 }
-
 #menu {
     height: 40px;
 }
@@ -29,18 +36,6 @@ footer{
     text-transform: uppercase;
     text-decoration: none;
 }
-
-.coluna {
-    float: left;
-    padding: 30px;
-    box-sizing: border-box;
-}
-.metade{
-    width: 50%;
-    border: red 1px solid;
-    /*margin: 15px;*/
-}
-
 .bg_imagem{
     background-image: url('fundo.jpg');
     background-repeat: no-repeat;
@@ -61,6 +56,9 @@ footer{
 .bg_cinza{
     background-color: #cccccc;
 }
+.bg_branco{
+    background-color: white;
+}
 
 /* Tag H1 que estiver dentro da tag com classe .topo_com_titulo */
 .topo_com_titulo h1{
@@ -80,32 +78,19 @@ footer{
 .topo_com_titulo img{
     height: 100px;
 }
-.colunas_em_porcento div.display-block{
-    padding: 10px 15px;
-    text-align: center;
-    line-height: 85px;
-    color: #AAA;
-}
-
-.display-block{
-    display: block;
-    float: left;
-    box-sizing: border-box;
-    /* Uma borda para facilitar o alinhamento */
-    border: red 1px dashed;
-}
-/* Largura: 100% */
-.l-100{ width: 100%; }
-/* Largura: 50% */
-.l-50{ width: 50%;}
-/* Largura: 33% */
-.l-33{ width: 33%;}
-/* Largura: 25% */
-.l-25{ width: 25%;}
 
 .a-100px{
     height: 100px;
 }
 .a-auto{
     height: auto;
+}
+
+#conteudo{
+    margin-top: 15px;
+}
+#titulos{
+    font-weight: 700;
+    font-size: 14pt;
+    text-transform: uppercase;
 }

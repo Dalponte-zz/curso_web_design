@@ -1,0 +1,51 @@
+#topo .menu{
+    height: 40px;
+    float: right;
+}
+#topo .menu li{
+    float: left;    
+}
+#topo .menu a:hover{
+    background-color: #990000;
+}
+#topo .menu a{
+    color: white;
+    padding: 10px 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#topo .titulo{
+    font-size: 50pt;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+#topo .slogan{
+    padding: 30px 0;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    font-size: 20pt;
+    background-color: rgba(255, 255, 0, 0.6);
+    background: rgba(255, 255, 0, 0.6);
+}
+
+.melhores-alunos {
+    padding: 20px 0;
+    text-align: center;
+}
+.melhores-alunos .icone{
+    height: 100px;
+}
+.melhores-alunos img{
+    height: 100%;
+}
+.melhores-alunos .texto{
+    height: 100px;
+    padding: 15px;
+    font-size: 18pt;
+    color: #000099;
+}

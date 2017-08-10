@@ -14,6 +14,7 @@ footer{
 .container{
     width: 800px;
     margin:  0 auto;
+    height: auto;
 }
 
 #menu ul li{
